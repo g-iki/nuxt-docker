@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  nuxt:
+    build: ./nuxt
+    tty: true
+    volumes:
+      - .:/app
+      - node-modules:/app/node_modules
+    ports:
+      - 3000:3000
+
+volumes:
+  node-modules:
