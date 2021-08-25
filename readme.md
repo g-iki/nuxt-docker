@@ -4,8 +4,8 @@
 
 ## 手順
 
-ルートディレクトリ配下で`docker-compose build`
-成功したことを確認して`docker-compose up -d`
+ルートディレクトリ配下で`docker-compose build` <br>
+成功したことを確認して`docker-compose up -d` <br>
 `docker ps` コマンドで起動中のコンテナを確認
 ```
 > docker ps
